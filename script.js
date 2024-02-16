@@ -30,19 +30,19 @@ musicaFocoInput.addEventListener('change', () => {
 })
 
 focoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 30
+    tempoDecorridoEmSegundos = 5
     alterarContexto('foco')
     focoBt.classList.add('active')
 })
 
 curtoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 5
+    tempoDecorridoEmSegundos = 600
     alterarContexto('descanso-curto')
     curtoBt.classList.add('active')
 })
 
 longoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 15
+    tempoDecorridoEmSegundos = 1800
     alterarContexto('descanso-longo')
     longoBt.classList.add('active')
 })
